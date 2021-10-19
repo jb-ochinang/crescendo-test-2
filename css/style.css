@@ -559,7 +559,6 @@ footer .footer-right ul li a {
     font-family: 'Interstate-bold';
     position: relative;
     padding-bottom: 24px;
-    width: min-content;
     letter-spacing: 2px;
   }
 
@@ -767,8 +766,41 @@ footer .footer-right ul li a {
   }
 }
 
+@media only screen and (max-width: 660px) {
+  .main-visual .heading-area h1 {
+    width: min-content;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .logo-container {
     text-align: left;
+  }
+  .header .logo-container .mobile-logo img{
+    max-width: 170px;
+  }
+
+  .hambuger-menu{
+    right: 20px;
+    top: 22px;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .main-visual .heading-area{
+    left: 15px;
+  }
+
+  .main-visual .heading-area h1{
+    font-size: 42px;
+    letter-spacing: 1px;
+  }
+
+  .main-visual .heading-area h1 span{
+    font-size: 20px;
+  }
+
+  .main-visual .heading-area h2{
+    font-size: 20px;
   }
 }
