@@ -544,6 +544,9 @@ footer .footer-right ul li a {
   .upcomings-area .section-header {
     margin-bottom: 15px;
   }
+  .main-visual{
+    background: #1a9cf7;
+  }
   .main-visual .heading-area {
     left: 35px;
   }
