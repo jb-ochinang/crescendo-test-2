@@ -28,6 +28,9 @@
   src: url('../font/Helvetica-Bold.ttf') format('truetype');
 }
 
+
+/* COMMON STYLES ========================================== */
+
 .clear-fix:before,
 .clear-fix:after {
   content: '';
@@ -520,6 +523,9 @@ footer .footer-right ul li a {
   background: rgba(0, 0, 0, .5);
 }
 
+
+/* MEDIA QUERIES ==========================================*/
+
 @media only screen and (max-width: 1280px) {
   .header .navigator-menu ul li {
     margin: 0 10px;
@@ -548,10 +554,9 @@ footer .footer-right ul li a {
   .upcomings-area .section-header {
     margin-bottom: 15px;
   }
-  .main-visual{
+  .main-visual {
     background: #1a9cf7;
   }
-  
   .main-visual .heading-area {
     left: 35px;
   }
@@ -561,7 +566,6 @@ footer .footer-right ul li a {
     padding-bottom: 24px;
     letter-spacing: 2px;
   }
-
   .main-visual .heading-area h1:after {
     content: '';
     position: absolute;
@@ -573,7 +577,6 @@ footer .footer-right ul li a {
     height: 6px;
     opacity: 0.5;
   }
-  
   .main-visual .heading-area span {
     font-family: 'Helvetica-light';
     font-weight: 300;
@@ -582,14 +585,12 @@ footer .footer-right ul li a {
     margin-left: 4px;
     margin-bottom: 4px;
   }
-
   .main-visual .heading-area h2 {
     font-family: 'Helvetica';
     opacity: 1;
     letter-spacing: 1px;
     font-size: 22px;
   }
-  
   .hambuger-menu {
     position: absolute;
     right: 34px;
@@ -776,31 +777,27 @@ footer .footer-right ul li a {
   .logo-container {
     text-align: left;
   }
-  .header .logo-container .mobile-logo img{
+  .header .logo-container .mobile-logo img {
     max-width: 170px;
   }
-
-  .hambuger-menu{
+  .hambuger-menu {
     right: 20px;
     top: 22px;
   }
 }
 
 @media only screen and (max-width: 385px) {
-  .main-visual .heading-area{
+  .main-visual .heading-area {
     left: 15px;
   }
-
-  .main-visual .heading-area h1{
+  .main-visual .heading-area h1 {
     font-size: 42px;
     letter-spacing: 1px;
   }
-
-  .main-visual .heading-area h1 span{
+  .main-visual .heading-area h1 span {
     font-size: 20px;
   }
-
-  .main-visual .heading-area h2{
+  .main-visual .heading-area h2 {
     font-size: 20px;
   }
 }
